@@ -5,6 +5,7 @@
 - Trigger alerts or mitigation before significant damage occurs
 - Must run efficiently and reliably on endpoints or within a network
 
+This design leverages a Random Forest Classifier, a solid baseline for ransomware detection. We are using synthetic training data generated from a script in the project. Once the cutover to real data occurs, preprocessing will need to be added.
 ---
 
 ## Architecture Overview

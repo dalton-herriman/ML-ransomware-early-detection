@@ -5,6 +5,8 @@
 - Trigger alerts or mitigation before significant damage occurs
 - Must run efficiently and reliably on endpoints or within a network
 
+---
+
 ## Architecture Overview
 ```plaintext
 +---------------------------+

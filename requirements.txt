@@ -1,0 +1,22 @@
+# Monitoring
+watchdog==4.0.0         # File system events
+psutil==5.9.8           # Process stats (CPU, memory, I/O)
+
+# Data & ML
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+joblib==1.4.2
+xgboost==2.0.3
+
+# API (optional)
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# Utilities
+pyyaml==6.0.1           # For config.yaml
+tqdm==4.66.4            # Nice progress bars
+
+# Optional dev/test
+pytest==8.2.2
+black==24.4.2

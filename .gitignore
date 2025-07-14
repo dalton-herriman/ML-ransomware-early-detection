@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and runtime data
+*.log
+*.out
+*.pid
+*.sqlite3
+
+# Model artifacts
+*.joblib
+*.pkl
+*.h5
+*.sav
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+venv/
+.env/
+.envrc
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# FastAPI / uvicorn reload cache
+__pycache__/
+*.reload*
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Tests
+htmlcov/
+.coverage
+.cache/
+pytest_cache/
+
+# Misc
+*.bak
+*.swp

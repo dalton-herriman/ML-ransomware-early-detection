@@ -27,7 +27,7 @@
 +------------+--------------+
              |
              v
-+------------+--------------+
++------------+--------------+ 
 | ML Model (Classifier)      |
 |  - Trained to label        |
 |    "benign" or "ransomware"|
@@ -44,6 +44,26 @@
 
 ---
 
+## Key Components
 
+### Data Collection Module
+### Feature Engineering
+### Model Training
+### Real Time Inference
+### Response Engine
 
-```
+---
+
+## Datasource Sets
+Use or simulate ransomware activity or use public datasets
+- EMBER (Windows PE Malware)
+- VirusShare
+- CIC Ransomware Dataset
+
+---
+
+## Tech Stack
+- Python
+- Scikit-learn or XGBoost
+- Watchdog, psutil, joblib
+- Optional: **fastapi** for endpoint control
